@@ -12,7 +12,7 @@ for (const number of numbers) {
 
 }
 function handleReset() {
-  ekran.innerText = '0' ; 
+  ekran.innerText = ' ' ; 
 }  
 document.querySelector('.btn-reset').addEventListener('click', handleReset);
 
